@@ -1,0 +1,55 @@
+#container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.searchForm, .forecastData {
+    display: block;
+    margin: 40px;
+}
+
+#searchText, #searchButton {
+    margin-top: 25px;
+    padding: 10px 80px 10px 10px;
+    display: inline-block;
+}
+
+
+#searchButton {
+    margin-left: 40px;
+    background: rgba(0,0,255,.8);
+    color: white;
+    padding: 10px 30px 10px 30px;
+}
+
+label{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#city {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0px 0px 20px 20px;
+}
+
+table, tr,td, th {
+    border: 2px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%
+}
+
+th {
+    height: 50px;
+    font-weight: bold;
+    background: rgba(255,255,0,0.3)
+}
+
+#errormsg {
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+}
